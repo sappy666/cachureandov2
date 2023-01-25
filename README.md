@@ -1,1 +1,3 @@
-# cachureandov2
+# cachureando.github.io
+proyecto grupal front-end
+Karina | Yurisan | Francesca | Macarena

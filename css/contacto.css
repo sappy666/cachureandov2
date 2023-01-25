@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+/* Estilos generales */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-style: light;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+
+
+/* Estilos para el header */
+.logo{
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.nombre-empresa{
+    margin-left: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* Estilos para la barra de navegación */
+nav{
+    margin-top: 2.5rem;
+}
+
+
+
+
+
+
+/* Estilos para las secciones  */
+.section-img{
+    width: 60%;
+}
+
+.contenido{
+    display:flex;  
+    gap: .8rem; 
+    text-align: justify;
+}
+
+section{
+    margin-top: 5rem;
+    padding: .8rem;
+    border-radius: .5rem;
+}
+
+h2{
+    text-align: center;
+}
+
+#quierovender{
+    background-color: beige;
+    padding: 7rem;
+}
+
+
+/* Estilo para el footer*/
+footer{
+    background-color: rgba(189, 187, 136, 0.548);
+    color: antiquewhite;
+    padding: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* estos de abajo falta incluirlo en las secciones de arriba */
+
+
+.card-img{
+    width: 40%;
+    height: 40%;
+}
+
+
+
+.desc-section{
+    display: flex;
+    justify-content: center;
+    padding: 30px 60px;
+    gap: 40px;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.hero .hero-text {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero .hero-text h1 {
+    color: #FFF;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.hero .hero-text p {
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .hero-text a {
+    color: #333;
+    font-size: 20px;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.contenido{
+    text-align: justify;
+    text-align: center;
+}
+
+#galeria h2{
+text-align: center;
+}
+
