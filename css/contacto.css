@@ -16,8 +16,10 @@ body{
 }
 
 
+/* Estilos para el HEADER */
 
-/* Estilos para el header */
+/* Estilos para el header : Logo y Nombre Empresa */
+
 .logo{
     width: 4rem;
     margin-right: 1rem;
@@ -28,29 +30,14 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Estilos para el header : Barra de navegación */
 
-
-
-/* Estilos para la barra de navegación */
 nav{
     margin-top: 2.5rem;
 }
 
 
-
-
-
-
-/* Estilos para las secciones  */
-.section-img{
-    width: 60%;
-}
-
-.contenido{
-    display:flex;  
-    gap: .8rem; 
-    text-align: justify;
-}
+/* Estilos para el MAIN  */
 
 section{
     margin-top: 5rem;
@@ -58,102 +45,57 @@ section{
     border-radius: .5rem;
 }
 
-h2{
-    text-align: center;
+.section-img{
+    width: 60%;
 }
-
-#quierovender{
-    background-color: beige;
-    padding: 7rem;
-}
-
-
-/* Estilo para el footer*/
-footer{
-    background-color: rgba(189, 187, 136, 0.548);
-    color: antiquewhite;
-    padding: 5rem;
-    text-align: center;
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-
-/* estos de abajo falta incluirlo en las secciones de arriba */
-
 
 .card-img{
     width: 40%;
     height: 40%;
 }
 
-
-
-.desc-section{
-    display: flex;
-    justify-content: center;
-    padding: 30px 60px;
-    gap: 40px;
-}
-
-.hero {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.hero img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.hero .hero-text {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    z-index: 1;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hero .hero-text h1 {
-    color: #FFF;
-    font-size: 64px;
-    margin-bottom: 20px;
-}
-
-.hero .hero-text p {
-    color: #FFF;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.hero .hero-text a {
-    color: #333;
-    font-size: 20px;
-    background-color: #FFF;
-    border: 2px solid #FFF;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 2px;
-}
-
-.contenido{
-    text-align: justify;
+h2{
     text-align: center;
 }
 
-#galeria h2{
-text-align: center;
+
+/* Estilos para el footer*/
+
+footer{
+    background-color: rgba(189, 187, 136, 0.548);
+    color: antiquewhite;
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
 }
+
+
+/* Responsive */
+
+@media (max-width:480px) {
+    
+    /* Estilos para footer */
+
+    footer {
+        font-size: 14px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+@media (min-width:480px) and (max-width: 768px){
+
+    /* Estilos para footer */
+
+    footer {
+        font-size: 14px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+
+
 
