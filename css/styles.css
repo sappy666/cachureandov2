@@ -6,12 +6,12 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-style: light;
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     width: 100%;
 }
 
@@ -32,8 +32,10 @@ body{
 
 /* Estilos para el header : Barra de navegación */
 
-nav{
-    margin-top: 2.5rem;
+
+
+#navbarColor03{
+border-color: black;
 }
 
 /* Estilos para el header : Hero */
@@ -99,13 +101,15 @@ section p{
 
 }
 
-.section-img{
-    width: 60%;
+.carta{
+   height: 400px;
+    overflow: hidden;
 }
 
-.card-img{
-    width: 40%;
-    height: 40%;
+.carta img{
+    width: 100%;
+    object-fit: contain;
+    object-position:bottom;
 }
 
 h2{
@@ -113,7 +117,7 @@ h2{
 }
 
 #quierovender{
-    background-color: beige;
+    background-color: rgb(234, 237, 226);
     padding: 7rem;
 }
 
@@ -121,11 +125,11 @@ h2{
 /* Estilos para el footer*/
 
 footer{
-    background-color: rgba(189, 187, 136, 0.548);
+    background-color: rgba(255, 153, 155, 0.852);
     color: antiquewhite;
-    padding: 2rem;
+    padding: 4rem;
     text-align: center;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 /* Responsive */
@@ -165,6 +169,7 @@ footer{
 
     .hero .hero-text a {
         color: #333;
+        letter-spacing: 2rem;
         font-size: 15px;
         background-color: #FFF;
         border: 2px solid #FFF;
